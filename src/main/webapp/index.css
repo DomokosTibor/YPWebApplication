@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Berlin Sans FB";
+    src: url('fonts/berlin-sans-fb.ttf') format('truetype');
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #031C21;
+	background-image: url(images/background.jpg);
+	background-size: auto 100% ;
+	background-position: fixed;
+	font-family: "Berlin Sans FB";
+	font-size: 12pt !important;
+	color: #000;
+}
+::selection { 
+	background: lightblue;
+}
+::-moz-selection { 	
+	background: lightblue;
+}
+h1 {
+    font-size: 1.8em;
+    margin-top: 0.5em;
+}
+header {
+	width: 100%;
+	height: 100px;
+	top: 0;
+	position: fixed;
+	background: blue;
+	color: white;
+}
+#name {
+	float: left;
+	padding-left: 20px;
+	font-size: 3em;
+	line-height: 100px;
+}
+#menu {
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 1.2em;
+	line-height: 40px;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.2);
+	border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#menu li {
+    float: left;
+}
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#menu li a:hover {
+    background-color: orange;
+}
+#main {
+    margin: 0px auto;
+    padding: 100px 10px 10px 10px;
+    width: 780px;
+    height: auto;
+	background: #FFF;
+	text-align: justify;
+	line-height: 1.3em;
+	box-shadow: 0px 0px 30px 1px #333;
+}
+#item {
+	float: left;
+	margin: 0px 10px 0px 10px;
+	padding: 5px;
+	border: 2px solid #333;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#item a {
+    text-decoration: none;
+	color: red;
+}
+#item:hover {
+    background-color: orange;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#item, #item img {
+	width: 220px;
+	height: 165px;
+}
+#item img {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;	
+}
+#price {
+	margin: auto;
+    margin-top: -15px;
+    width: 80px;
+    height: 20px;
+	background-color: #FFCCCC;
+    border: 2px solid red;
+    font-size: 1.3em;
+    line-height: 20px;
+    text-align: center;
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+footer {
+	height: 50px;
+	background-color: #000;
+	text-align: center;
+	font-size: 1.0em;
+	line-height: 50px;
+	color: #999;
+	background: repeating-linear-gradient(-55deg, #222, #222 2px, #333 2px, #333 4px);
+}
