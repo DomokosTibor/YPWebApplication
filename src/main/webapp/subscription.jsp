@@ -7,7 +7,13 @@
     <title>Greeting</title>
 </head>
 <body>
-<h1>${greeting.text}</h1>
+
+<h1>${subscription.text}</h1>
+
+<!--
+<h1><%=(String)request.getAttribute("name")%></h1>
+<h1><%=(String)request.getAttribute("email")%></h1>
+-->
 <a href="index.html">Go back</a>
 </body>
 </html>
